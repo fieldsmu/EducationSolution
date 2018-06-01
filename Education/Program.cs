@@ -28,7 +28,7 @@ namespace Education {
 				Name = "Foster",
 				Class = dotnetbc4,
 				ContactInfo = "513-444-4444",
-				FirstJob = DateTime.MinValue,
+				FirstJob = null,
 				Absences = 0
 			};
 
@@ -36,7 +36,7 @@ namespace Education {
 				Name = "Jonathon",
 				Class = dotnetbc4,
 				ContactInfo = "513-444-4444",
-				FirstJob = DateTime.MinValue,
+				FirstJob = null,
 				Absences = 0
 			};
 

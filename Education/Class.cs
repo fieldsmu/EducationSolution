@@ -8,7 +8,20 @@ namespace Education {
 	class Class {
 
 		public string Name { get; set; }
-		public string Language { get; set; } // csharp or java
+		private string _Language; 
+		/// <summary>
+		/// Language accepts only csharp or java
+		/// </summary>
+		public string Language {
+			get {
+				return _Language;
+			}
+			set {
+				if (value == "csharp" || value == "java") {
+					_Language = value;
+				}
+			}
+		}
 		public string Code { get; set; }
 		public int Capacity { get; set; }
 		public Instructor Instructor { get; set; }
